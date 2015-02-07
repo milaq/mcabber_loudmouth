@@ -40,7 +40,6 @@ main (int argc, char **argv)
 #endif
     LmResolver *srv_resolver;
 
-    g_type_init ();
 #if 0
     resolver = lm_resolver_new_for_host ("kenny.imendio.com",
                                          resolver_result_cb,
