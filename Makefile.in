@@ -334,7 +334,7 @@ GTESTER_REPORT = gtester-report	        # for non-GLIB package
 TEST_PROGS = 
 SUBDIRS = loudmouth docs examples $(TEST_DIRS)
 DIST_SUBDIRS = loudmouth docs examples tests
-pkgconfigdir = $(libdir)/pkgconfig
+pkgconfigdir = /usr/lib/pkgconfig
 pkgconfig_DATA = loudmouth-1.0.pc
 DISTCHECK_CONFIGURE_FLAGS = \
 	--enable-gtk-doc
